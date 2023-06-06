@@ -1,8 +1,8 @@
 const Navigation = () => {
     return(
-        <nav>
-        <div className="logo">
-        <img src="../public/images/logo.png" alt="densologo"></img>
+        <nav className="container">
+         <div className="logo">
+          <img src="../public/images/logo.png" alt="densologo"></img>
         </div>
         <ul>
             <li href="#">Menu</li>
@@ -16,4 +16,4 @@ const Navigation = () => {
     );
 };
 
-export default Navigation
+export default Navigation;

@@ -1,30 +1,30 @@
 const HeroSection = () => {
     return (
-        <main className="hero">
+        <main className="hero container">
           <div className="hero-content">
-            <h1>YOUR FEET DESERVE THE BEST</h1>
-             <p>
-            YOUR FEET DESERVE THE BEST AND HERE TO HELP YOU WITH OUR SHOES. YOUR FEET DESERVE 
-            THE BEST AND WHERE HERE TO HELP YOU WHIT OUR 
-            SHOES. 
+            <h1>DENSO CRAFTING THE CORE</h1>
+            <p>
+            DENSO is a global manufacturer of automotive 
+            components offering advanced automotive technologies, 
+            systems and products.
             </p>
 
             <div className="hero-btn">
-              <button>Shop NOW</button>
-              <button>Category</button>
+              <button>Customers</button>
+              <button className="secondary-btn">Employees</button>
             </div>
 
             <div className="shopping">
-              <p>Also Avilable NON</p>
+              <p>Also Avilable on</p>
             
             <div className="brand-icons">
-              <img src="../../public/images/paquete.png" alt="logo-paquete" />
-              <img src="../../public/images/ship.png" alt="logo-barco" />
+              <img src="../../public/images/amazon.png" alt="amazon-logo" />
+              <img src="../../public/images/flipkart.png" alt="flipkart-image" />
              </div>
             </div>
           </div>
         <div className="hero-image"></div>
-           <img src="../../public/images/vb-r.png" alt="" />
+           <img src="../../public/images/vb-.png" alt="" />
         </main>
     );
 };
