@@ -8,8 +8,23 @@ const HeroSection = () => {
             THE BEST AND WHERE HERE TO HELP YOU WHIT OUR 
             SHOES. 
             </p>
+
+            <div className="hero-btn">
+              <button>Shop NOW</button>
+              <button>Category</button>
+            </div>
+
+            <div className="shopping">
+              <p>Also Avilable NON</p>
+            
+            <div className="brand-icons">
+              <img src="../../public/images/paquete.png" alt="logo-paquete" />
+              <img src="../../public/images/ship.png" alt="logo-barco" />
+             </div>
+            </div>
           </div>
-          <div className="hero-image"></div>
+        <div className="hero-image"></div>
+           <img src="../../public/images/vb-r.png" alt="" />
         </main>
     );
 };
